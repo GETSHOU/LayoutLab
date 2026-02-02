@@ -4,7 +4,7 @@ export default {
 	extends: ['stylelint-config-standard-scss'],
 	rules: {
 		'block-no-empty': true,
-		'no-empty-source': false,
+		'no-empty-source': null,
 		'comment-empty-line-before': 'never',
 	},
 };
